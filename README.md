@@ -1,10 +1,25 @@
-# Task Manager Application
+Título del Proyecto: Sistema de gestion de tareas
+
+Nombre del Autor: Mauro Tapia
+
+Fecha: [08/03/2024]
+
+## Funcionalidades
+Descripción de Funcionalidades:
+    Agregar Tarea: Permite al usuario agregar una nueva tarea con nombre y descripción.
+    Listar Tareas: Muestra todas las tareas existentes en una tabla.
+    Eliminar Tarea: Permite al usuario eliminar una tarea seleccionada.
+
+## Estructura del Proyecto
+
+El proyecto sigue la estructura MVC y usa MyBatis para ORM. La conexión a datos está separada en una dependencia, lo que facilita el mantenimiento y la escalabilidad.
 
 ## Requisitos
 
 - JDK 8
 - Maven
-- MySQL
+- MyBatis
+- BootStrap
 
 ## Configuración de la Base de Datos
 
@@ -42,13 +57,3 @@
     ```
     http://localhost:8084
     ```
-
-## Funcionalidades
-
-- **Pantalla de Inicio**: Bienvenida y botón para registrar una tarea.
-- **Pantalla de Registro de Tarea**: Formulario para registrar Nombre, Descripción y Fecha de inicio de una tarea.
-- **Listado de Tareas**: Muestra las tareas registradas.
-
-## Estructura del Proyecto
-
-El proyecto sigue la estructura MVC y usa MyBatis para ORM. La conexión a datos está separada en una dependencia, lo que facilita el mantenimiento y la escalabilidad.
