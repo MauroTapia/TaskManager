@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS TASKS (
+    Id INT PRIMARY KEY,
+    Name VARCHAR(255),
+    Description TEXT,
+    StartDate DATE
+);

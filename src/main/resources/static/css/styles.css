@@ -1,0 +1,24 @@
+/* styles.css */
+
+.header {
+    margin-bottom: 20px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.nav-link {
+    margin-right: 15px;
+    font-size: 1.1rem;
+}
+
+.jumbotron {
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    border: 1px solid #dee2e6;
+}
+
+.btn {
+    border-radius: 5px;
+}
